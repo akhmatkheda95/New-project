@@ -1,0 +1,39 @@
+.new-blog {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 80px 0px 50px 0px;
+}
+.container {
+  width: 1024px;
+  max-width: 100%;
+}
+.postimg2 img {
+  max-width: 100%;
+  border-radius: 7px;
+}
+.sidebar2 {
+  margin-top: 30px;
+}
+.blogpost2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #235ef0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.post2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.read-story {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0s linear;
+}
+.sylka {
+  margin-top: 20px;
+}
+a:hover {
+  color: blue;
+}

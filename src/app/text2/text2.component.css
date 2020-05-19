@@ -1,0 +1,17 @@
+.container {
+  width: 1024px;
+  margin-bottom: 0px;
+}
+.text1 {
+  padding: 70px 150px 0px 100px;
+  font-weight: 500;
+}
+.title {
+  margin-bottom: 30px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.textimg {
+  margin-top: 50px;
+  border-radius: 7px;
+}

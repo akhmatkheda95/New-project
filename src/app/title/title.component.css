@@ -1,0 +1,25 @@
+.container {
+  width: 600px;
+  text-align: center;
+  max-width: 100%;
+}
+.imgtitle {
+  width: 600px;
+}
+.trends {
+  color: #2e54cf;
+}
+.ways {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0px 5px 0px;
+  line-height: 1.3em;
+}
+.eric {
+  font-weight: 700;
+}
+.data {
+  font-weight: 500;
+  color: #9f9f9f;
+}

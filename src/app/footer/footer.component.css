@@ -1,0 +1,48 @@
+footer {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.container {
+  width: 1024px;
+  max-width: 100%;
+}
+.online {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 0px 0px 50px;
+}
+.icons {
+  margin-top: 40px;
+  width: 180px;
+}
+.title {
+  padding: 0px 0px 30px 10px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 2.1em;
+}
+.title-menu {
+  font-size: 16px;
+}
+.title2 {
+  font-weight: 600;
+}
+.iconsimg {
+  width: 40px;
+}
+.uuu {
+  width: 30px;
+  margin-top: 45px;
+  height: 70px;
+}
+.solution {
+  position: relative;
+  right: 30px;
+}
+.end2 {
+  line-height: 2.5em;
+  font-weight: 500;
+}
+.language {
+  font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.container-fluid {
+  width: 1600px;
+  max-width: 100%;
+}
+header {
+  padding: 40px;
+}
+.menu {
+  padding: 0px 10px 0px 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+a {
+  color: black;
+}
+.logo {
+  font-weight: 500;
+  font-size: 32px;
+}
+.fa-search {
+  margin: 0px 0px 0px 100px;
+  font-size: 25px;
+}
+input {
+  font-size: 15px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 13px;
+  margin-left: 20px;
+}
+
+button {
+  position: relative;
+  bottom: 45px;
+  height: 45px;
+  left: 200px;
+  border-radius: 13px;
+  width: 120px;
+  background-color: #0056fb;
+  color: white;
+}
+.menu {
+  padding-top: 10px;
+}
+.logoimg1 {
+  margin-bottom: 10px;
+}

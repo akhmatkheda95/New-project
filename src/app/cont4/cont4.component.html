@@ -1,0 +1,115 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="upcoming">
+        Upcoming Events
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-4" *ngFor="let item of blocks">
+      <div class="postimg4">
+        <img [src]="item.img" />
+        <div class="div">{{ item.data }}</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <div class="blogpost4">{{ item.title }}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-12">
+          <div class="post4">
+            {{ item.description }}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 col-lg-12">
+          <div class="sylka">
+            <a href="#" class="read-story">{{ item.buttonText }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-4">
+      <div class="postimg4">
+        <img src="assets/newsite15.jpg" />
+        <div class="div">21 Dec</div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="postimg4">
+        <img src="assets/newsite17.jpg" />
+        <div class="div">21 Dec</div>
+      </div>
+    </div> -->
+  </div>
+  <!-- <div class="sidebar4"> -->
+  <!-- <div class="row">
+      <div class="col-4" *ngFor="let item of blocks">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="blogpost4">{{ item.title }}</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-sm-12">
+            <div class="post4">
+              {{ item.description }}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 col-lg-12">
+            <div class="sylka">
+              <a href="#" class="read-story">{{ item.buttonText }}</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  <!-- <div class="col-4">
+        <div class="row">
+          <div class="col">
+            <div class="blogpost4">Webinar</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="post4">
+              The Basik: Distributing Your Videos Across Diffrent Channels
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="sylka">
+              <a href="#" class="read-story">Watch Webinar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <div class="col">
+            <div class="blogpost4">Webinar</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="post4">
+              The Basik: Distributing Your Videos Across Diffrent Channels
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="sylka">
+              <a href="#" class="read-story">Watch Webinar</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  <!-- </div> -->
+</div>

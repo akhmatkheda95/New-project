@@ -1,0 +1,44 @@
+.container {
+  width: 1024px;
+  margin-bottom: 0px;
+}
+.text1 {
+  padding: 70px 150px 0px 100px;
+  font-weight: 500;
+}
+.title {
+  margin-bottom: 30px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.textimg {
+  margin-top: 50px;
+  border-radius: 7px;
+}
+hr {
+  margin-top: 100px;
+}
+.text2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.eric {
+  padding: 50px 50px 0px 100px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.contact {
+  padding: 50px 50px 0px 100px;
+  color: #a4a4a4;
+  font-size: 14px;
+}
+.contact img {
+  margin-left: 10px;
+}
+.ericimg {
+  padding: 10px 0px 0px 50px;
+}
+.strategist {
+  font-size: 14px;
+  font-weight: 500;
+}

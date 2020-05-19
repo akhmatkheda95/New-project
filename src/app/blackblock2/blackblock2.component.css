@@ -1,0 +1,52 @@
+.container {
+  width: 1024px;
+}
+.row1 {
+  background-color: black;
+  border-radius: 7px;
+  margin-top: 90px;
+}
+.ready {
+  font-size: 35px;
+  color: white;
+  padding: 80px 50px 80px 70px;
+  font-weight: 600;
+}
+.well {
+  font-size: 16px;
+  color: #9b9b9b;
+  font-weight: 500;
+  margin-top: 20px;
+}
+a {
+  color: #9b9b9b;
+  text-decoration: underline;
+  transition: 0.07s linear;
+}
+a:hover {
+  color: white;
+}
+.ready1 {
+  padding: 80px 0px 80px 0px;
+}
+input {
+  padding: 15px 0px 15px 10px;
+  border: none;
+  border-bottom: 2px solid #9b9b9b;
+  background-color: black;
+  width: 350px;
+}
+.img20 {
+  position: relative;
+  bottom: 55px;
+  width: 350px;
+}
+button {
+  background-color: #0056fb;
+  border-radius: 13px;
+  color: white;
+  position: relative;
+  right: 70px;
+  height: 59px;
+  bottom: 1px;
+}

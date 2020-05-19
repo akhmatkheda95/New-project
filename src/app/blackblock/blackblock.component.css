@@ -1,0 +1,31 @@
+.container {
+  width: 800px;
+  color: aliceblue;
+}
+.div1 {
+  position: relative;
+  right: 250px;
+  background-color: black;
+  width: 1100px;
+  border-radius: 7px;
+}
+.div-in-div {
+  padding: 60px 410px 60px 300px;
+}
+.ready {
+  font-size: 20px;
+  font-weight: 500;
+}
+button {
+  background-color: #105bff;
+  color: aliceblue;
+  border-radius: 7px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.div2 img {
+  height: 399px;
+  width: 294px;
+  position: relative;
+  bottom: 15px;
+}

@@ -1,0 +1,112 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="new-blog">
+        New Blog Posts
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-4" *ngFor="let item of blocks">
+      <div class="postimg2">
+        <img [src]="item.img" />
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <div class="blogpost2">{{ item.title }}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-12">
+          <div class="post2">
+            {{ item.description }}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 col-lg-12">
+          <div class="sylka">
+            <a href="#" class="read-story">{{ item.buttonText }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-4">
+      <div class="postimg2">
+        <img src="assets/newsite7.PNG" />
+      </div>
+    </div> -->
+    <!-- <div class="col-4">
+      <div class="postimg2">
+        <img src="assets/newsite8.PNG" />
+      </div>
+    </div> -->
+  </div>
+  <!-- <div class="sidebar2">
+    <div class="row">
+      <div class="col-4">
+        <div class="row">
+          <div class="col">
+            <div class="blogpost2">Blog Post</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="post2">
+              4 organic ways to improve your website KPIs
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="sylka">
+              <a href="#" class="read-story">Read Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <div class="col">
+            <div class="blogpost2">Blog Post</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="post2">
+              How to turn your next event into a video content goldmine
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="sylka">
+              <a href="#" class="read-story">Read Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <div class="col">
+            <div class="blogpost2">Blog Post</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="post2">
+              How to quickly turn your podcast into a video script
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="sylka">
+              <a href="#" class="read-story">Read Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>

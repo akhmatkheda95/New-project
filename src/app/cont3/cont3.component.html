@@ -1,0 +1,111 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="pop-resources">
+        Popular Resources
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-lg-6 col-sm-12 col-md-7">
+      <div class="sidebar3">
+        <div class="row" *ngFor="let item of blocks">
+          <div class="col-4">
+            <div class="postimg3">
+              <img [src]="item.img" class="img2" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <div class="category category-red2">
+                  <span class="red2">{{ item.title }}</span>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="post12">
+                  {{ item.description }}
+                </div>
+              </div>
+              <div class="col-12">
+                <a href="#" class="read-report2">
+                  {{ item.buttonText }}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="sidebar3">
+        <div class="row">
+          <div class="col-4">
+            <div class="postimg3">
+              <img src="assets/newsite11.PNG" class="img2" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <div class="category category-red2">
+                  <span class="blue2">Blog Post</span>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="post12">
+                  Webinar: Improving content marketing through visual
+                  storytelling
+                </div>
+              </div>
+              <div class="col-12">
+                <a href="#" class="read-report2">
+                  Watch Webinar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar3">
+          <div class="row">
+            <div class="col-4">
+              <div class="postimg3">
+                <img src="assets/newsite12.PNG" class="img2" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-12">
+                  <div class="category category-red2">
+                    <span class="yellow2">Report</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="post12">
+                    How to reach audience with social video: From Milliennials
+                    to Gen Z
+                  </div>
+                </div>
+                <div class="col-12">
+                  <a href="#" class="read-report2">
+                    Read Report
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="col col-lg-6 col-sm-12 col-md-7">
+      <div class="">
+        <img src="assets/newsite13.jpg" class="imgdiv" />
+        <div class="textimg">
+          Storyteller Circle<br />Event Series<br /><a
+            href="#"
+            class="watch-web"
+            >Watch Webinar</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

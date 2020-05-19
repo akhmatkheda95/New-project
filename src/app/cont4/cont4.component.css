@@ -1,0 +1,44 @@
+.container {
+  width: 1024px;
+}
+.postimg4 img {
+  max-width: 100%;
+  border-radius: 7px;
+  position: relative;
+}
+.blogpost4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fbc94d;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.post4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.read-story {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0s linear;
+}
+.sylka {
+  margin-top: 20px;
+}
+a:hover {
+  color: blue;
+}
+.upcoming {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 80px 0px 50px 0px;
+}
+.div {
+  position: relative;
+  bottom: 253px;
+  background-color: white;
+  width: 70px;
+  padding: 10px 10px 10px 5px;
+  border-radius: 7px;
+}

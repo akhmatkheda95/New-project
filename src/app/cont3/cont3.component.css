@@ -1,0 +1,71 @@
+.container {
+  width: 1024px;
+  max-width: 100%;
+}
+.pop-resources {
+  margin: 100px 0px 25px 0px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.postimg3 img {
+  max-width: 100%;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.sidebar3 {
+  margin-top: 30px;
+}
+.category-red2 {
+  color: red;
+  font-weight: 600;
+  padding: 0px 0px 10px 10px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.post12 {
+  font-weight: 600;
+  line-height: 1.2em;
+  font-size: 18px;
+  padding: 10px 0px 10px 10px;
+}
+.read-report2 {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0px 0px 10px 10px;
+}
+.yellow2 {
+  color: #fdc950;
+}
+.blue2 {
+  color: #235ef0;
+}
+a {
+  color: black;
+  transition: 0s linear;
+}
+a:hover {
+  color: blue;
+}
+.imgdiv {
+  width: 482px;
+  height: 510px;
+  position: relative;
+  border-radius: 7px;
+}
+.textimg {
+  position: relative;
+  bottom: 340px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+.watch-web {
+  font-size: 18px;
+  color: white;
+  transition: 0.07s linear;
+}
+.watch-web:hover {
+  color: #63e5ff;
+  font-size: 23px;
+}

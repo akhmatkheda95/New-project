@@ -1,0 +1,74 @@
+.img1 {
+  border-radius: 7px;
+}
+.blogpost {
+  color: #2f67d8;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 30px 0px 10px 0px;
+}
+.text1 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+.text2 {
+  margin-top: 25px;
+  color: #9a9a9a;
+  font-size: 18px;
+  font-weight: 500;
+}
+button {
+  margin-top: 30px;
+  border-radius: 13px;
+  padding: 10px 25px 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #0056fb;
+  color: white;
+}
+.sidebar1 {
+  margin: 0px 0px 40px 30px;
+}
+.container {
+  width: 1024px;
+  max-width: 100%;
+}
+.postimg2 img {
+  width: 170px;
+  height: 170px;
+  border-radius: 5px;
+}
+.category-red {
+  color: red;
+  font-weight: 600;
+  padding: 0px 0px 10px 50px;
+  font-size: 17px;
+}
+.post1 {
+  font-weight: 600;
+  line-height: 1.2em;
+  font-size: 17px;
+  padding: 10px 0px 10px 50px;
+}
+.read-report {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 0px 10px 50px;
+}
+.yellow {
+  color: #fdc950;
+}
+.blue {
+  color: #235ef0;
+}
+a {
+  color: black;
+  transition: 0s linear;
+}
+a:hover {
+  color: blue;
+}
+.green {
+  color: #50d413;
+}
